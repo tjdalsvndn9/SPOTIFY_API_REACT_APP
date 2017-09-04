@@ -1,0 +1,62 @@
+.App {
+  padding:5% 0;
+  text-align: center;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100% !important;
+  min-height:100vh !important;
+  background: linear-gradient(to right, #004e92 0%,#4ECDC4 19%,#BE93C5 40%,#7BC6CC 60%,#e02cbf 83%,#004e92 100%);
+  -webkit-animation: AnimationName 40s linear infinite;
+-moz-animation: AnimationName 40s linear infinite;
+animation: AnimationName 40s linear infinite;
+background-size:10000px 100%;
+}
+
+
+@keyframes AnimationName{
+  0%{
+    background-position-x: 0;
+  }
+
+  100%{
+    background-position-x: 10000px;
+  }
+}
+
+
+.ui.block.header {
+  background:none;
+  display: inline-block;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   padding: 25px;
+   border: none;
+   font: normal 60px/1 "Fredoka One", Helvetica, sans-serif;
+   color: rgba(255,255,255,1);
+   text-align: center;
+   -o-text-overflow: clip;
+   text-overflow: clip;
+   text-shadow: 3px 3px 0 #0199d9 , 4px 4px 0 #0199d9 , 5px 5px 0 #0199d9 , 6px 6px 0 #0199d9 , 7px 7px 0 #0199d9 , 8px 8px 0 #0199d9 , 9px 9px 0 #0199d9 , 10px 10px 0 #0199d9 , 11px 11px 0 #0199d9 , 12px 12px 0 #0199d9 , 13px 13px 0 #0199d9 , 14px 14px 0 #0199d9 , 15px 15px 0 #0199d9 , 16px 16px 0 #0199d9 , 17px 17px 0 #0199d9 , 18px 18px 0 #0199d9 , 19px 19px 0 #0199d9 , 20px 20px 0 #0199d9 ;
+  border: none;
+  padding: 0px 0 22px 0 !important;
+}
+
+.ui.fluid.input {
+  width: 80%;
+  margin: 0 auto !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.ui.button{
+  margin:15px 0;
+  background:white;
+  border:none !important;
+  transition:all 0.7s linear;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.ui.button:hover{
+color:white !important;
+background: #CB356B !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #BD3F32, #CB356B) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #BD3F32, #CB356B) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

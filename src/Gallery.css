@@ -1,0 +1,25 @@
+.GALLERY{
+  width:75%;
+  margin:20px auto;
+
+}
+.Album{
+  padding:0 20px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-item{
+  padding:10px;
+}
+img{
+  cursor:pointer;
+  border-radius: none !important;
+}
+figcaption{
+  margin-top:15px;
+  color:white;
+  font-size: 1.1rem;
+}

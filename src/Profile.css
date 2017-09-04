@@ -1,0 +1,40 @@
+.Profile{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  margin:10px auto;
+}
+.ProfileImg{
+  flex:1
+}
+.ProfileInfo{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex:1;
+}
+.ProfileInfo h4,.ProfileInfo p{
+  margin:0;
+  padding:2px 0;
+}
+img{
+  width:150px;
+  height:150px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 50%;
+}
+ul{
+  display:flex;
+  flex-direction: row;
+
+}
+ul,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+li{
+  padding:5px 3px;
+}
